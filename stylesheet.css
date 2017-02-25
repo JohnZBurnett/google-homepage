@@ -1,0 +1,91 @@
+body {
+  text-align: center;
+}
+
+img {
+  display: block;
+  margin: auto;
+  padding: 200px 0 10px 0;
+  position: relative;
+}
+
+.search-box {
+ width: 80%;
+ margin: 0 auto;
+
+}
+
+#page-wrap {
+  width: 800px;
+  margin: 0 auto;
+}
+
+input {
+  border: 1px solid #dfdfdf;
+  display: inline-block;
+  height: 30px;
+  width: 70%;
+  margin: 0 50% 0  14%;
+  position: relative;
+  background: url(https://infogalactic.com/w/images/2/22/Google_microphone_logo.png) no-repeat right center;
+  background-size: 20px 20px;
+  background-origin: border-box;
+}
+
+input:hover {
+  box-shadow: 0px 1px 8px #dfdfdf;
+}
+
+.button {
+    border: 0px;
+    background-color: #dfdfdf;
+    color: #595959;
+    font-family: Arial;
+    font-size: 14px;
+    display: inline block;
+    padding: 5px 15px;
+    margin-top: 10px;
+}
+
+.button:hover {
+  color: black;
+  border: 1px solid gray;
+}
+/*
+#search-button {
+  background-color: #dfdfdf;
+  color: #a3a3a3;
+  font-family: Arial;
+  font-size: 14px;
+  display: inline;
+  margin-left: 45%;
+  position: relative;
+  padding: 3px 10px;
+}
+
+
+
+#lucky-button {
+  background-color: #dfdfdf;
+  color: #a3a3a3;
+  font-family: Arial;
+  font-size: 14px;
+  padding: 3px 10px;
+  display: inline;
+  position: relative;
+}
+
+#lucky-button:hover {
+  color: black;
+  border: 1px solid gray;
+}
+
+*/
+
+/*
+#block-holder {
+  display: block;
+  width: 330px;
+  height: 200px;
+}
+*/
