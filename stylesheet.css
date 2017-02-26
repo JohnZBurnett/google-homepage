@@ -1,6 +1,9 @@
 body {
 }
 
+#block-holder {
+  display: inline-block;
+}
 .button {
     border: 0px;
     background-color: #dfdfdf;
@@ -10,7 +13,6 @@ body {
     display: inline block;
     padding: 5px 15px;
     margin-top: 10px;
-    text-align: center;
 }
 
 .button:hover {
@@ -32,11 +34,19 @@ footer {
 
 a {
   padding: 2px;
+  text-decoration: none;
+  color: #595959;
+}
+
+a:visited {
+  text-decoration: none;
+  color: #595959;
 }
 
 #footer-right {
   float: right;
 }
+
 img {
   display: block;
   margin: auto;
